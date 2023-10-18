@@ -1,0 +1,152 @@
+@import url("public/styles/header.css");
+@import url("public/styles/section-1.css");
+@import url("public/styles/section-2.css");
+@import url("public/styles/section-3.css");
+@import url("public/styles/section-4.css");
+@import url("public/styles/section-5.css");
+@import url("public/styles/section-6.css");
+@import url("public/styles/section-7.css");
+@import url("public/styles/section-8.css");
+@import url("public/styles/footer.css");
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--white);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: var(--content-background);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--light);
+}
+
+
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --grey: #1E1E1E;
+  --light: #AAAAAA;
+  --background: #141718;
+  --content-background: #1F2023;
+  --dark: #131313;
+  --primary: #AD00FF;
+  --secondary: rgba(255, 255, 255, 0.40);
+}
+
+body {
+  position: relative;
+  background-color: var(--background);
+}
+
+section, footer {
+  padding: 16px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: block;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, 
+p, a, strong, small, li {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  color: var(--white);
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--secondary);
+}
+
+small {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--secondary);
+}
+
+button {
+  border: none;
+  border-radius: 7px;
+  padding: 24px;
+  background-color: var(--primary);
+  color: var(--white);
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+input, textarea {
+  width: 100%;
+  margin: 12px 0 0 0;
+  padding: 12px 16px;
+  color: var(--white);
+  background-color: transparent;
+  border: 1px solid var(--secondary);
+  border-radius: 7px;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (max-width: 920px) {
+  h1, h2, h3, h4 {
+    font-size: 24px;
+  }
+
+  small {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  button {
+    padding: 16px !important;
+  }
+}

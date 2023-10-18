@@ -1,0 +1,60 @@
+.section-1-content {
+  width: 100%;
+  height: calc(100vh - 96px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-section-1 {
+  margin-top: 32px;
+  padding: 24px;
+  font-size: 24px;
+}
+
+.section-1-text {
+  margin: 32px 0;
+}
+
+.vector-component {
+  width: 4.69%;
+  position: absolute;
+  top: 0; right: 0;
+}
+
+.vector-component img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.vector-group-1 {
+  width: 100%;
+  margin: -20vh 0 20vh 0;
+}
+
+@media screen and (max-width: 900px) {
+  .section-1-content {
+    height: 60vh;
+  }
+
+  .section-1-text {
+    margin: 20px 0;
+  }
+
+  .btn-section-1 {
+    margin-top: 20px;
+    padding: 16px;
+    font-size: 16px;
+  }
+
+  .vector-component {
+    display: none;
+  }
+
+  .vector-group-1 {
+    display: none;
+  }
+}

@@ -1,0 +1,91 @@
+header {
+  width: 100%;
+  height: 96px;
+  padding: 16px;
+}
+
+.head-inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-title {
+  font-size: 32px;
+  font-family: 'Jua', sans-serif;
+  color: var(--white);
+}
+
+nav {
+  width: 100%;
+  height: 100%;
+}
+
+nav ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 64px;
+}
+
+.btn-start-work {
+  padding: 16px 24px;
+  font-size: 16px;
+}
+
+.btn-menu {
+  display: none;
+}
+
+.menu {
+  height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  left: 0; right: 0; top: 0;
+  background-color: var(--dark);
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.menu-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-logo {
+  display: flex;
+}
+
+.open {
+  height: 300px;
+  padding: 24px;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media screen and (max-width: 920px) {
+  nav {
+    display: none;
+  }
+
+  .btn-menu {
+    display: block;
+  }
+}

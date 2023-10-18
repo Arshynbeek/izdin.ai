@@ -1,0 +1,34 @@
+#section-3 .container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-3-content {
+  display: flex;
+  gap: 64px;
+}
+
+.section-3-text {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+@media screen and (max-width: 920px) {
+  #section-3 .container {
+    height: 60vh;
+  }
+
+  .section-3-img {
+    display: none;
+  }
+
+  .section-3-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 32px;
+  }
+}

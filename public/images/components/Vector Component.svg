@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="90" height="442" viewBox="0 0 90 442" xml:space="preserve">
+<desc>Created with Fabric.js 5.3.0</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 219.7881355932 221)" id="MVoHSZNqu4IQIFa1H8ieC"  >
+<path style="stroke: rgb(255,255,255); stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  transform=" translate(-198.5, -220.454)" d="M 1 -54 L 1 294.908 C 1 405.365 90.5431 494.908 201 494.908 L 396 494.908" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 21.7881355932 199.2105263158)" id="4vMwphzSWIHgrAzxpFlVG"  >
+<g style=""   >
+		<g transform="matrix(1 0 0 1 0 0)" id="wGxckrQU5co70UG5-SkSa"  >
+<linearGradient id="SVGID_6" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -24 -24)"  x1="74.875" y1="20.5625" x2="10.9375" y2="81.75">
+<stop offset="0%" style="stop-color:rgb(154,0,226);stop-opacity: 1"/>
+<stop offset="77.8284%" style="stop-color:rgb(221,149,255);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_6); fill-rule: nonzero; opacity: 1;"  transform=" translate(-22, -22)" d="M 0 44 L 0 0 L 44 0 L 44 44 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 0 0)" id="y_fREkaYaWwiqlRlpHWXq"  >
+<linearGradient id="SVGID_7" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -29 -29)"  x1="46" y1="24" x2="46" y2="68">
+<stop offset="0%" style="stop-color:rgb(199,79,255);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(160,0,235);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: url(#SVGID_7); stroke-width: 10; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  transform=" translate(-17, -17)" d="M 0 34 L 0 0 L 34 0 L 34 34 z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</svg>

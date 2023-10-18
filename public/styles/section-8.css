@@ -1,0 +1,31 @@
+#section-8 {
+  min-height: 80vh;
+}
+
+#section-8 .container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+form {
+  display: grid;
+  gap: 32px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+form button {
+  width: 222px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 700px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+}
