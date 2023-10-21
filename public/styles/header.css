@@ -48,14 +48,15 @@ nav ul {
 }
 
 .menu {
-  height: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: absolute;
-  left: 0; right: 0; top: 0;
+  padding: 24px;
+  left: 0; right: 0; top: -324px;
   background-color: var(--dark);
   overflow: hidden;
+  gap: 24px;
   transition: all 0.3s;
 }
 
@@ -70,8 +71,7 @@ nav ul {
 }
 
 .open {
-  height: 300px;
-  padding: 24px;
+  top: 0px;
 }
 
 .menu ul {
